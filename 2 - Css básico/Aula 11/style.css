@@ -1,0 +1,42 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.profile{
+    text-align: center;
+}
+.foto{
+    width: 200px;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 20px #02000073;
+}
+.social-link {
+    text-decoration: none;
+}
+.social-media{
+    width: 40px;
+    margin: 0 5px;
+}
+h1{
+    font-size: 75px;
+    font-weight: 400;
+    margin: auto;
+}
+h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin: 10px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 10px;
+}
+
