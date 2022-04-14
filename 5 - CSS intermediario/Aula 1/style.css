@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+.info{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.exemplo{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.exemplo1 > p{
+    color: red;
+}
+
+.exemplo2 + p {
+    color: green;    
+}
+
+.exemplo3 ~ p{
+    color: blueviolet;
+}

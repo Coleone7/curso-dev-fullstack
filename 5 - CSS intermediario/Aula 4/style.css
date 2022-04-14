@@ -1,0 +1,30 @@
+
+
+
+body{
+    background-image: url("https://c.tenor.com/HPhAaS32oAgAAAAd/will-smith-confia.gif");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+.teste{
+    background-color: aqua;
+    opacity: 0.2;
+}
+ul{
+    width: 100%;
+    
+}
+
+ul li{
+    display: inline;
+    background-color: red;
+    padding: 10px;
+    margin: 0 20px ;
+    border-radius: 100%;
+}
+
+.teste2 {
+    visibility: hidden;
+}

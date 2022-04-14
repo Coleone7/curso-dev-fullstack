@@ -1,0 +1,35 @@
+
+::selection{
+    color: pink;
+    background: black;
+}
+
+p::first-letter{
+    color: orange;
+    font-size: 150px;
+}
+p::first-line{
+    color: red;
+}
+
+
+h1::before{
+    background: url(https://w7.pngwing.com/pngs/697/297/png-transparent-checkbox-icon-checkbox-button-tick-box-angle-text-triangle-thumbnail.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+
+}
+
+h1::after{
+    background: url(https://w7.pngwing.com/pngs/697/297/png-transparent-checkbox-icon-checkbox-button-tick-box-angle-text-triangle-thumbnail.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+
+}
+

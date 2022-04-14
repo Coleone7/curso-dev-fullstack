@@ -1,0 +1,72 @@
+a {
+    color: red;
+
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(206, 206, 130);
+}
+
+a:hover ~ .caixa2{
+    display: block;
+}
+
+
+.caixa{
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+
+.caixa:hover {
+    background: green;
+}
+
+.caixa:active {
+    background: red;
+}
+
+
+.caixa2 {
+    width: 150px;
+    height: 150px;
+    background: black;
+    margin: 10px 0 ;
+    display: none;
+}
+
+
+ul li:first-child {
+    color: red;
+}
+ul li:last-child {
+    color: blue;
+}
+
+.exemplo{
+    border: 3px solid black;
+    margin: 10px 0 ;
+}
+.exemplo p:first-child{
+    color: aqua;
+
+}
+
+.exemplo p:last-child{
+    color: blueviolet;
+}
+
+.exemplo2 {
+    border: 3px solid black;
+    margin: 10px 0 ;
+}
+
+.exemplo2 p:nth-child(5){
+    color: orange;
+}

@@ -1,0 +1,22 @@
+p{
+    font-size: 30px;
+    color: green;
+    text-align: justify;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 56px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize ;
+}
+
+h1{
+    text-shadow: 10px 10px 3px red;
+}
