@@ -1,0 +1,7 @@
+:root {
+    --color-primary: rgb(196, 80, 80);
+    --color-test: blue;
+    --color-secundary: pink;
+
+    --spacing: 16px;
+}

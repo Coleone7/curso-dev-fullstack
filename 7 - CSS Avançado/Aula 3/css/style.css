@@ -1,0 +1,21 @@
+@import "variaveis.css";
+@import "comuns.css";
+
+.img{
+    width: 300px;
+    filter:hue-rotate(90deg) ;
+}
+
+
+.box{
+    filter: blur();
+}
+
+h1{
+    filter: blur(10px);
+    
+}
+
+h1:hover{
+    filter: blur(0px);
+}

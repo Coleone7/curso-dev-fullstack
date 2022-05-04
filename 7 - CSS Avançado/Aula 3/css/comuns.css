@@ -1,0 +1,21 @@
+
+
+h1{
+    color: var(--color-primary);
+
+}
+
+h2{
+    color: var(--color-secundary);
+    margin: var(--spacing);
+}
+
+p{
+    color: var(--color-test);
+}
+
+
+button{
+    background: rgb(201, 16, 53);
+    color: rgb(235, 220, 220)
+}
