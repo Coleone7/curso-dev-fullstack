@@ -1,0 +1,59 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* <!-- menos de 400 px, tela amarela.
+entre 400 e 600px, tela roxa,
+entre 600 a 800px tela preta 
+mais de 800, tela vermelha. --> */
+
+
+
+/* menos que 400 / ou / no máximo 400 */
+@media (max-width:400px) {
+    body{
+        background-color: yellow;
+        color: purple;
+        font-size: 30px;
+    }
+
+    img{
+        display: none;
+    }
+}
+
+
+/* sintaxe para intervalo */
+
+@media (min-width:400px) and (max-width: 600px) {
+    body{
+        background-color: purple;
+        color: yellow;
+        font-size: 10px;
+    }
+
+}
+
+
+/* mais que 800 / ou / ao menos 800px */
+@media (min-width:800px) { 
+    body{
+        background-color: red;
+        color: blue;
+        font-size: 40px;
+    }
+}
+
+
+
+
+/* _____________________________________________ */
+
+
+
+
+
